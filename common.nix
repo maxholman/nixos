@@ -140,9 +140,6 @@
 
   # services.xserver.windowManager.i3.enable = true;
 
-  services.qemuGuest.enable = true;
-  services.spice-vdagentd.enable = true;
-
   fonts.packages = with pkgs; [
     noto-fonts
     noto-fonts-cjk
